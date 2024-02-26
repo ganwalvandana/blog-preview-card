@@ -1,0 +1,74 @@
+body{
+    background-color: goldenrod;
+    font-family: "Figtree";
+}
+
+#container{
+    background-color: white;
+    width: 26%;
+    height: 600px;
+    margin: 200px 37%;
+    border: 1px solid black;
+    border-radius: 20px;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+
+}
+#illustration{
+    width: 90%;
+    margin: 20px 5%;
+}
+#learning{
+    display: inline-block;
+    background-color: goldenrod;
+    padding: 6px 12px;
+    margin: 5px 24px;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+h4{
+    margin: 5px 24px;
+    font-weight: 300;
+    font-size: 16px;
+}
+h2{
+    margin: 20px 24px;
+    font-size: 30px;
+    font-weight: bold;
+}
+p{
+    margin: 20px 24px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: rgb(99, 97, 97);
+}
+#person{
+    display: flex;
+    margin: 20px 24px;
+    justify-content: left;
+    align-items: center;
+
+}
+#avatar{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+h3{
+    font-size: 16px;
+}
+
+@media screen and (max-width: 900px){
+    #container{
+        width: 60%;
+        margin: 200px 20%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #container{
+        width: 80%;
+        margin: 200px 10%;
+    }
+}
